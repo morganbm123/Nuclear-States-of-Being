@@ -7,14 +7,20 @@ canvas {
   left: 0;
   z-index: -9999;
 }
-
+html {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
 #header {
+
   top: 19px;
   padding-top: 15px;
   left:0px;
 
 }
 #header .logo {
+
     position: absolute;
     left: 25px;
     /* width: 136px; */
@@ -24,7 +30,12 @@ canvas {
     font-style: normal;
 }
 
+body {
+  background: #e8e8e8
+
+}
       .description {
+
         position: absolute;
         top: 12px;
         left: 25px;
@@ -52,6 +63,7 @@ canvas {
 
 
 .main {
+
     z-index: 1;
     top: 100px;
     width: 30vw;
@@ -126,6 +138,7 @@ padding-top: 18px;
 
 }
 
+/* Beginning of artifact  */
 
 .nuclear-section1 {
     position: relative;
@@ -165,6 +178,7 @@ padding-top: 18px;
     float: left;
     line-height: 1em;
     font-size: 55px;
+    font-color: red;
 }
 
 .maincontent-body {
