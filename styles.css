@@ -15,7 +15,7 @@ html {
 #header {
 
   top: 19px;
-  padding-top: 15px;
+  padding-top: 10px;
   left:0px;
 
 }
@@ -24,7 +24,7 @@ html {
     position: absolute;
     left: 25px;
     /* width: 136px; */
-    font-size: 50px;
+    font-size: 40px;
     font-family: titling-gothic-fb, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -50,7 +50,7 @@ body {
 
  .header-text {
       position: absolute;
-      top: 85px;
+      top: 70px;
       left: 28px;
       line-height: 19px;
       font-family: titling-gothic-fb-narrow, sans-serif;
@@ -119,7 +119,7 @@ a.extern {
 
 
 .wrapper {
-  padding-top: 220px;
+  padding-top: 205px;
   padding-left: 21px;
   margin: 0 auto;
 }
@@ -134,104 +134,10 @@ a.extern {
   line-height: 1em;
   border-top: 2px solid #000;
 border-width: 4px;
-padding-top: 18px;
+padding-top: 16px;
 
 }
 
-/* Beginning of artifact  */
-
-.nuclear-section1 {
-    position: relative;
-    width: calc(827px);
-    left: calc(100vw - 827px);
-    z-index: 3;
-    padding-bottom: 75px;
-    opacity: 1;
-    float: left;
-    overflow: hidden;
-    transform: translate(-0%,0vh);
-    background-color: #fff;
-    border: 2px solid #000;
-    border-width: 2px 2px 2px 2px;
-    transition: 0s ease;
-    -webkit-transition: 0s ease;
-    transition: 0s ease;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
-}
-
-.maincontent-containter {
-    left: 25px;
-    width: calc(100% - 50px);
-    position: relative;
-    letter-spacing: -0.005em;
-    font-size: 20px;
-}
-
-.article-mainheading {
-    position: relative;
-    padding-top: 75px;
-    padding-bottom: 15px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    left: 25px;
-    width: 550px;
-    float: left;
-    line-height: 1em;
-    font-size: 55px;
-    font-color: red;
-}
-
-.maincontent-body {
-    position: relative;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    clear: both;
-    left: 25px;
-    width: 525px;
-}
-
-
-.side-text6 {
-    position: absolute;
-    width: calc(800px);
-    height: 1141px;
-    left: calc(100vw - 1045px);
-    margin-top: 2057px;
-    opacity: 1;
-    background-color: #fff;
-    border: 2px solid #000;
-    border-width: 2px 2px 2px 2px;
-    z-index: -1;
-    overflow: hidden;
-    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
-}
-
-
-
-.flyer-mainheading {
-    position: relative;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    font-weight: 400;
-    left: 5px;
-    width: 550px;
-    float: left;
-    line-height: 1em;
-}
-
-.maincontent-credit {
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    clear: both;
-    font-weight: 400;
-    letter-spacing: -0.1px;
-    font-size: 17px;
-    left: 75px;
-    width: 325px;
-    line-height: 1.5em;
-  }
 
   .anchor-class {
     text-decoration: none;
