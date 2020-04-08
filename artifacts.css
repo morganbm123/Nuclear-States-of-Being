@@ -81,8 +81,8 @@ a.extern {
 .sect-title {
   font-size: 25px;
   line-height: 20px;
-  font-family: titling-gothic-fb-narrow, sans-serif;
-  font-weight: 400;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
   font-style: normal;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -161,6 +161,15 @@ a.extern {
 
 }
 
+.section2-figure {
+  text-align: left;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px
+
+}
+
 .nuclear-section3 {
     position: relative;
     width: calc(50vw);
@@ -180,6 +189,16 @@ a.extern {
     -webkit-transition: 0s ease;
     transition: 0s ease;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+}
+
+.section3-body {
+  padding: 5px 15px 5px 15px;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px
+  text-align: justify;
+
 }
 
 .nuclear-section4 {
@@ -230,8 +249,21 @@ a.extern {
 }
 
 .section5-body {
-  margin:10px;
-  padding-right:5px;
+  padding: 5px 15px 5px 15px;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px
+  text-align: justify;
+
+}
+
+.section5-figure {
+  font-size: 12px;
+  text-align: left;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 
 }
 
