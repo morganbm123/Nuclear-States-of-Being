@@ -90,14 +90,17 @@ p {
 /*Flexbox gives us the flexiness we need. The top just stays put as there is no scrolling on the body due to the page never exceeding viewport height*/
 .Top {
     display: flex;
-    align-items: center;
-    justify-content: center;
+
     background-color: black;
-    font-size: 3rem;
-    position: relative;
-    z-index: 10;
-    height: fit-content;
+    padding: 5px 15px 5px 15px;
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px
+    text-align: justify;
 }
+
+
 /*This is our main wrapping element, it's made 100vh high to ensure it is always the correct size and then moved into place and padded with negative margin and padding*/
 .Container {
     display: flex;
