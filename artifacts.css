@@ -200,8 +200,8 @@ a.extern {
    }
 
    #bg13 {
-     top: 440%;
-      left: 2%;
+     top: 436%;
+      left: 6%;
       border: .1rem solid;
 
    }
@@ -326,8 +326,8 @@ a.extern {
     width: 50vw;
     left: calc(100vw - 770px);
     z-index: 3;
-    padding-bottom: 75px;
-    padding-right: 30;
+    /* padding-bottom: 75px;
+    padding-right: 30; */
     opacity: 1;
     float: left;
     overflow: hidden;
@@ -365,8 +365,6 @@ a.extern {
     left: 20px;
     z-index: 3;
     margin-top: 100px;
-    padding-bottom: 75px;
-    padding-right: 30;
     opacity: 1;
     float: left;
     overflow: hidden;
@@ -405,8 +403,8 @@ a.extern {
     left: calc(100vw - 770px);
     z-index: 3;
     margin-top: 100px;
-    padding-bottom: 75px;
-    padding-right: 30;
+    /* padding-bottom: 75px;
+    padding-right: 30; */
     opacity: 1;
     float: left;
     overflow: hidden;
@@ -434,29 +432,33 @@ a.extern {
   overflow-x: scroll;
   overflow-y: scroll;
     white-space: nowrap;
-    padding: 20px;
     background: #e8e8e8;
-    margin: 50px;
-    border: .25rem solid;
 }
 
+#sub-id {
+  max-height: 250px;
+  overflow-y: scroll;
+}
 
  .sub-size{
   padding: 10px;
   justify-content:space-around;
-  font-size: 10px;
+  font-size: 14px;
   border: .1rem dashed;
+  white-space: normal;
+   word-break: break-word;
 }
 
 .cover-div {
-  height: 800px;
-   max-width: 100%;
+  height: 100vh;
+   max-width: 640px;
    margin: 20px;
    display: inline-block;
    vertical-align: middle;
    background: #0000;
 
 }
+
 
 .nuclear-section4 {
     position: relative;
@@ -490,8 +492,8 @@ a.extern {
   left: calc(100vw - 770px);
   z-index: 3;
   margin-top: 100px;
-  padding-bottom: 75px;
-  padding-right: 30;
+  /* padding-bottom: 75px;
+  padding-right: 30; */
   opacity: 1;
   float: left;
   overflow: hidden;
@@ -555,6 +557,38 @@ a.extern {
 .section6-body {
   margin:10px;
   padding-right:5px;
+
+}
+
+
+.nuclear-section7 {
+  position: relative;
+  width: 50vw;
+  left: calc(100vw - 770px);
+  z-index: 3;
+  margin-top: 100px;
+  /* padding-bottom: 75px;
+  padding-right: 30; */
+  opacity: 1;
+  float: left;
+  overflow: hidden;
+  transform: translate(-0%,0vh);
+  background-color: #fff;
+  border: 2px solid #000;
+  border-width: 2px 2px 2px 2px;
+  transition: 0s ease;
+  -webkit-transition: 0s ease;
+  transition: 0s ease;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+}
+
+.section7-body {
+  padding: 5px 15px 5px 15px;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px
+  text-align: justify;
 
 }
 
@@ -713,6 +747,22 @@ z-index: 4;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+.text-update{
+  overflow: hidden;
+  transform: translateX(100%);
+  animation: moving 10s linear infinite;
+}
+
+@keyframes moving {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}

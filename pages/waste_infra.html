@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<style>
+  * {
+    box-sizing: border-box;
+    background-color: Black;
+
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .header {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .para {
+
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: justify;
+    justify-content: center;
+
+  }
+
+  .row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 180px;
+
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #myImg:hover {
+    opacity: 0.7;
+  }
+
+
+  /* Add Animation */
+  .modal-content,
+  #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(0)
+    }
+
+    to {
+      -webkit-transform: scale(1)
+    }
+  }
+
+  @keyframes zoom {
+    from {
+      transform: scale(0)
+    }
+
+    to {
+      transform: scale(1)
+    }
+  }
+
+  .container {
+    display: inline-flex;
+    position: relative;
+  }
+
+  #feynman:hover+#feynman_text {
+    opacity: 1;
+  }
+
+  #feynman_text:hover {
+    opacity: 1;
+  }
+
+  #feynman_text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    text-opacity: 20;
+  }
+</style>
+
+<body>
+
+
+
+
+  <!-- Header -->
+  <div class="header">
+    <font color="white">
+      <h1>Modern Waste Infrastructures<br></h1>
+  </div>
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YRlmpagIo3KoPFgxSLjYzApERRyHHt6n/preview" target=_self>
+          <img src="../assets/gridPhotos/beaver/beaverClose.jpg" alt="Beaver Close" style="width:100%"></a>
+        <div id='feynman_text'> PG&E Trojan Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YdxmNYXBsRwKlCMr1mTQMhvIIAtOemu1/preview" target=_self>
+          <img src="../assets/gridPhotos/comanche/comancheClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Comanche Nuclear Plant (Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YnpK-ti5uvOz-oTuxQYXtaWKlZPjp94H/preview" target=_self>
+          <img src="../assets/gridPhotos/comanche/comancheFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Comanche Nuclear Plant (Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YzdejnNOGXt9614alpK1maEua0AZbXuN/preview" target=_self>
+          <img src="../assets/gridPhotos/diablo/diabloClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Diablo Nuclear Plant (Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1Z-w6h5lbOZS-SAzkhzy_BoeRCGwZl64V/preview" target=_self>
+          <img src="../assets/gridPhotos/diablo/diabloFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Diablo Nuclear Plant (Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_A_Z_pEQ6sDsY8tPXnH5ajID4JXtzGvo/preview" target=_self>
+          <img src="../assets/gridPhotos/prairie/prairieClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Prairie Nuclear Plant (Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YPC6vZO0pFMFUqk6xjDhEaB9YsTvGhGM/preview" target=_self>
+          <img src="../assets/gridPhotos/arkansas/close.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Arkansas Nuclear Plant (Close View) </div>
+      </div>
+    </div>
+
+    <div class="column">
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YSojFlHk6A1jCBu-FBBhgh8pard3NtBY/preview" target=_self>
+          <img src="../assets/gridPhotos/beaver/beaverFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> PG&E Trojan Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZOM3M-DWf9AvGG6SQA6mlhj5fIA9vYw2/preview" target=_self>
+          <img src="../assets/gridPhotos/morris/morrisClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Morris Nuclear Plant(Close View)
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZUkVsNYAFBKDO6kmOXic0L3-utqi5A5P/preview" target=_self>
+          <img src="../assets/gridPhotos/morris/morrisFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Morris Nuclear Plant(Far View)
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZvibUL-UkGCnFmdqk7JyXaRRVKJ1NPI-/preview" target=_self>
+          <img src="../assets/gridPhotos/paloVerde/paloClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Palo Verde Nuclear Plant(Close View)
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZxiShmYf8oPClFce0n7d342HT5hBMEoL/preview" target=_self>
+          <img src="../assets/gridPhotos/paloVerde/paloFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Palo Verde Nuclear Plant(Far View)
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_B3dwMYPSE33W3EuyQrprp4RP1Y1kjfj/preview" target=_self>
+          <img src="../assets/gridPhotos/prairie/prairieFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Prairie Nuclear Plant(Far View)
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1YR92m9O-gu2_fRlczP3QPmuV1ndjCsUw/preview" target=_self>
+          <img src="../assets/gridPhotos/arkansas/far.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Arkansas Nuclear Plant (Far View)
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZVHl9P4bS1QE2oThhvVoY9m1D5kQYimd/preview" target=_self>
+          <img src="../assets/gridPhotos/nineMile/nineClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Nine Mile Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZXX8_VG99cwERzQOdZiSn1p4ZNUhnjJ3/preview" target=_self>
+          <img src="../assets/gridPhotos/nineMile/nineFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Nine Mile Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1Zh0kMASech_CorJp4dMABEBj3ZCT4NGA/preview" target=_self>
+          <img src="../assets/gridPhotos/northAnna/northClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> North Anna Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1Zn3wZYM9E51atXpnVHxq0dG5TXpRscNs/preview" target=_self>
+          <img src="../assets/gridPhotos/northAnna/northFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> North Anna Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_CNkx5N7G1OVqq3Bfq_4gdb-T-PIGA3u/preview" target=_self>
+          <img src="../assets/gridPhotos/vrain/vrainClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Vrain Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_HcWCynnSvifuCVRLN--69_qDr6f708a/preview" target=_self>
+          <img src="../assets/gridPhotos/vrain/vrainFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Vrain Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1Z0alhjuoo4qQGPF7sqY9fyDCzs_Ofy6Y/preview" target=_self>
+          <img src="../assets/gridPhotos/dominion/dominionClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Dominion Nuclear Plant (Close View) </div>
+      </div>
+
+    </div>
+    <div class="column">
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZsZDVeJ-LgigpH87NPQML8YVxAsI2-An/preview" target=_self>
+          <img src="../assets/gridPhotos/onconee/onconeeClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Onconee Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZvGF_lDaBRc4lwy0VH6Arck1_XIAUrQs/preview" target=_self>
+          <img src="../assets/gridPhotos/onconee/onconeeFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Onconee Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZvcXcTXsB6v2esO__Ole0yUs1q0jVeJO/preview" target=_self>
+          <img src="../assets/gridPhotos/onofre/onofreClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Onofre Nuclear Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1Zvf-prczYcGxaNY9uy62kAmkYAXVJej3/preview" target=_self>
+          <img src="../assets/gridPhotos/onofre/onofreFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Onofre Nuclear Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_7wsSVj9wlQ2x8mRr7uJOaTSbBRUlef2/preview" target=_self>
+          <img src="../assets/gridPhotos/pge/pgeClose.jpg" style="width:100%"></a>
+        <div id='feynman_text'> PGE Plant(Close View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1_86MhZ4NUJqJtaAaDiFHckX0wxYA8Efl/preview" target=_self>
+          <img src="../assets/gridPhotos/pge/pgeFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> PGE Plant(Far View) </div>
+      </div>
+
+      <div class="container">
+        <a href="https://drive.google.com/file/d/1ZCqpijTGkATXHzsc5pNiuL9vHbnm1WWi/preview" target=_self>
+          <img src="../assets/gridPhotos/dominion/dominionFar.jpg" style="width:100%"></a>
+        <div id='feynman_text'> Dominion Nuclear Plant (Far View) </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
