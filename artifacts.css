@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  padding: 10px;
+  /* padding: 10px; */
   justify-content:space-around;
 }
 
@@ -317,8 +317,7 @@ a.extern {
   padding-bottom: 20px;
   text-align: center;
   border-bottom: 1px solid;
-
-
+  white-space: nowrap;
 }
 
 .nuclear-section1 {
@@ -567,6 +566,7 @@ a.extern {
   left: calc(100vw - 770px);
   z-index: 3;
   margin-top: 100px;
+  margin-bottom: 50px;
   /* padding-bottom: 75px;
   padding-right: 30; */
   opacity: 1;
@@ -751,7 +751,9 @@ z-index: 4;
 .text-update{
   overflow: hidden;
   transform: translateX(100%);
-  animation: moving 10s linear infinite;
+  animation: moving 28s linear infinite;
+  display: inline-block;
+
 }
 
 @keyframes moving {
