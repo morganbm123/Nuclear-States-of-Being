@@ -23,10 +23,14 @@
       height: auto;
     }
   </style>
-
-  <img src="../assets/political_ecology/diagram_v2.svg" alt="political ecology mapping">
-
-
+  <div class="zoomable" style="transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0,);">
+    <img src="../assets/political_ecology/diagram_v2.svg" alt="political ecology mapping">
+  </div>
+  <script src="../js/panzoom.js"></script>
+  <script>
+    var area = document.querySelector('.zoomable')
+    panzoom(area)
+  </script>
 </body>
 
 </html>
