@@ -740,6 +740,7 @@ z-index: 4;
   background-color: #717171;
 }
 
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -754,6 +755,11 @@ z-index: 4;
   animation: moving 28s linear infinite;
   display: inline-block;
 
+}
+
+#map{
+  height:480px;
+  width:100%;
 }
 
 @keyframes moving {
