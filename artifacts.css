@@ -239,9 +239,8 @@ a.extern {
    }
 
    #bg17 {
-     top: 630%;
-      right: 30%;
-      border: .05rem solid;
+     top: 850%;
+      right: 40%;
       border: .1rem solid;
 
    }
@@ -252,7 +251,6 @@ a.extern {
    #bg18 {
      top: 650%;
       right: 8%;
-      border: .05rem solid;
       border: .1rem solid;
 
    }
@@ -285,6 +283,75 @@ a.extern {
 
    }
    #bg21:hover {
+      z-index: 4;
+   }
+
+   #bg22 {
+     top: 698%;
+      right: 10%;
+      border: .1rem solid;
+
+   }
+   #bg22:hover {
+      z-index: 4;
+   }
+
+   #bg23 {
+     top: 760%;
+      right: 30%;
+      border: .1rem solid;
+
+   }
+   #bg23:hover {
+      z-index: 4;
+   }
+
+   #bg24 {
+     top: 790%;
+      right: 5%;
+      border: .1rem solid;
+
+   }
+   #bg24:hover {
+      z-index: 4;
+   }
+
+   #bg25 {
+     top: 910%;
+      right: 5%;
+      border: .1rem solid;
+
+   }
+   #bg25:hover {
+      z-index: 4;
+   }
+
+   #bg26 {
+     top: 900%;
+      right: 25%;
+      border: .1rem solid;
+
+   }
+   #bg26:hover {
+      z-index: 4;
+   }
+
+   #bg27 {
+     top: 820%;
+      right: 25%;
+      border: .1rem solid;
+
+   }
+   #bg27:hover {
+      z-index: 4;
+   }
+   #bg28 {
+     top: 1200%;
+      left: 5%;
+      border: .1rem solid;
+
+   }
+   #bg28:hover {
       z-index: 4;
    }
 
