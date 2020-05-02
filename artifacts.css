@@ -78,13 +78,14 @@ a.extern {
    }
 
    #bg1 {
-     top: 220%;
+     top: 200%;
      left: 40%;
      border: .1rem solid;
 
    }
    #bg1:hover {
       z-index: 4;
+
    }
 
    #bg2 {
@@ -99,8 +100,8 @@ a.extern {
    }
 
    #bg3 {
-     top: 60%;
-     right: 10%;
+     top: 100%;
+     left: 10%;
      border: .1rem solid;
 
    }
@@ -119,8 +120,8 @@ a.extern {
    }
 
    #bg5 {
-     top: 120%;
-     right: 20%;
+     top: 1050%;
+     left: 20%;
      border: .1rem solid;
 
    }
@@ -129,8 +130,8 @@ a.extern {
    }
 
    #bg6 {
-     top: 200%;
-     right: 2%;
+     top: 220%;
+     right: 7%;
      border: .1rem solid;
 
    }
@@ -139,8 +140,8 @@ a.extern {
    }
 
    #bg7 {
-     top: 270%;
-     left: 5%;
+     top: 320%;
+     right: 5%;
      border: .1rem solid;
 
    }
@@ -161,7 +162,7 @@ a.extern {
 
    #bg9 {
      top: 350%;
-      left: 5%;
+      right: 25%;
       border: .1rem solid;
 
    }
@@ -170,7 +171,7 @@ a.extern {
    }
 
    #bg10 {
-     top: 400%;
+     top: 1250%;
       left: 20%;
       border: .1rem solid;
 
@@ -180,8 +181,9 @@ a.extern {
    }
 
    #bg11 {
-     top: 440%;
-      left: 2%;
+     top: 1450%;
+      left: 25%;
+
       border: .1rem solid;
 
    }
@@ -201,7 +203,7 @@ a.extern {
 
    #bg13 {
      top: 436%;
-      left: 6%;
+      right: 6%;
       border: .1rem solid;
 
    }
@@ -220,7 +222,7 @@ a.extern {
    }
    #bg15 {
      top: 565%;
-      right: 20%;
+      left: 20%;
       border: .1rem solid;
 
    }
@@ -249,7 +251,7 @@ a.extern {
    }
 
    #bg18 {
-     top: 650%;
+     top: 1150%;
       right: 8%;
       border: .1rem solid;
 
@@ -317,7 +319,7 @@ a.extern {
    }
 
    #bg25 {
-     top: 910%;
+     top: 990%;
       right: 5%;
       border: .1rem solid;
 
@@ -327,7 +329,7 @@ a.extern {
    }
 
    #bg26 {
-     top: 900%;
+     top: 970%;
       right: 25%;
       border: .1rem solid;
 
@@ -354,6 +356,57 @@ a.extern {
    #bg28:hover {
       z-index: 4;
    }
+
+   #bg29 {
+     top: 1375%;
+      left: 34%;
+      border: .1rem solid;
+
+   }
+   #bg29:hover {
+      z-index: 4;
+   }
+
+   #bg30 {
+     top: 460%;
+      left: 4%;
+      border: .1rem solid;
+
+   }
+   #bg30:hover {
+      z-index: 4;
+   }
+
+   #bg31 {
+     top: 1520%;
+      left: 10%;
+      border: .1rem solid;
+
+   }
+   #bg31:hover {
+      z-index: 4;
+   }
+
+   #bg32 {
+     top: 1575%;
+      left: 35%;
+      border: .1rem solid;
+
+   }
+   #bg32:hover {
+      z-index: 4;
+   }
+
+   #bg33 {
+     top: 1645%;
+      left: 9%;
+      border: .1rem solid;
+
+   }
+   #bg33:hover {
+      z-index: 4;
+   }
+
 
 .wrapper {
 
