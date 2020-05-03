@@ -73,6 +73,10 @@ a.extern {
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #bg_images img {
      position: absolute;
    }
